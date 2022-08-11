@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
 def call() {
-    echo "building de app"
+    echo "building the Jar"
     sh 'mvn package'
 }
